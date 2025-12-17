@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: [https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID](https://colab-viz-magic.lovable.app/)
+**URL**: [https://lovable.dev/projects/colab-viz-magic](https://colab-viz-magic.lovable.app/)
 
 ## How can I edit this code?
 
