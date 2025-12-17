@@ -4,6 +4,7 @@ import { ChartCard } from '@/components/ChartCard';
 import { LibraryTabs } from '@/components/LibraryTabs';
 import { SearchFilter } from '@/components/SearchFilter';
 import { SetupSection } from '@/components/SetupSection';
+import { LibraryOverview } from '@/components/LibraryOverview';
 import { charts, Library, Category } from '@/lib/chartData';
 
 const Index = () => {
@@ -55,6 +56,11 @@ const Index = () => {
 
           {/* Setup Section */}
           <SetupSection />
+
+          {/* Library Overview */}
+          <div className="mt-6">
+            <LibraryOverview />
+          </div>
         </div>
       </header>
 
