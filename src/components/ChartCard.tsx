@@ -4,6 +4,7 @@ import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { ChartData, libraryColors, libraryLabels, categoryLabels } from '@/lib/chartData';
+import { ChartPreview } from './ChartPreview';
 import { useToast } from '@/hooks/use-toast';
 
 interface ChartCardProps {
@@ -56,6 +57,9 @@ export function ChartCard({ chart }: ChartCardProps) {
       </CardHeader>
       
       <CardContent className="space-y-4">
+        {/* Chart Preview */}
+        <ChartPreview chartId={chart.id} />
+
         {/* When to Use */}
         <div className="rounded-lg bg-muted/50 p-3 border border-border/50">
           <p className="text-xs font-medium text-muted-foreground mb-1">
